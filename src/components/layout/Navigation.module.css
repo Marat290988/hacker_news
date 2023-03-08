@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 100%;
+  height: 50px;
+  background-color: #c08cdd;
+  border-bottom: 4px solid #a460ca;
+  padding: 0 10px;
+}
+
+.header>a {
+  text-decoration: none;
+} 
+
+.logo {
+  color: #565656;
+  font-weight: 800;
+  font-size: 25px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}

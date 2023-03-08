@@ -1,0 +1,27 @@
+.comment-text {
+  font-size: 12px;
+}
+
+.author {
+  color: #8d18cf;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin-left: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  user-select: none;
+}
+
+.arrow.active {
+  transform: rotate(90deg);
+}
+
+.loading span {
+  width: 18px !important;
+  height: 18px !important;
+  margin-left: 10px;
+  color: #aa10ff;
+}

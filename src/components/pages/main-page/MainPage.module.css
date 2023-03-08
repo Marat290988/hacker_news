@@ -1,0 +1,12 @@
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.center-container span {
+  color: #aa10ff;
+  width: 100px !important;
+  height: 100px !important;
+}
